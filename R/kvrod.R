@@ -1,11 +1,12 @@
 #' Title
 #'
 #' @param x 
+#' @param n 
 #'
 #' @return
 #' @export
 #'
 #' @examples
-kvrod <- function(x) {
-  x^2
+kvrod <- function(x, n) {
+  x^n
 }
